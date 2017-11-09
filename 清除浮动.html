@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+        ul{margin:0; padding: 0;}
+        li{list-style: none; padding: 0;}
+
+        .float-code{
+            float: left;
+            border:1px solid #000;
+            /*height: 102px;*/
+            /*overflow: auto;
+            *zoom:1;在IE6中触发haslayout
+            */
+            
+        }
+        .float-code li {
+              width: 100px;
+              height: 100px;
+              border: 1px solid lightgreen;
+              float: left;
+              margin-right: 10px;
+        }
+
+        /*.float-code:before,.float-code:after{
+            display: block;
+            content: '';
+            clear: both;
+        }*/
+
+        .content{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<body>
+    <ul class="float-code">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <!-- <div style="clear:both;"></div> -->
+    </ul>
+    <div class="footer"></div>
+</body>
+</html>
